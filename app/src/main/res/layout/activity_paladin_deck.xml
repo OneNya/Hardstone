@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaladinDeck">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Cost:"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="560dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/best_paladin_deck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Best Build"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="ScrollView">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/one" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/two" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/three" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/four" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/five" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/six" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/seven" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/eight" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/nine" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/ten" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/eleven" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/twelve" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/thirteen" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/fourteen" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/fifteen" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/sixteen" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/best_paladin_deck"
+                tools:srcCompat="@mipmap/seventeen" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-9dp"
+        android:layout_marginTop="149dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/aggro_paladin" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginBottom="119dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="6820"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="575dp"
+        app:srcCompat="@mipmap/bottle" />
+
+
+</RelativeLayout>
