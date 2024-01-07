@@ -14,7 +14,7 @@
           android:fillColor="#ffffff"/>
       <path
           android:pathData="M0,-90h439v630h-439z"
-          android:fillColor="url(#pattern0)"/>
+          android:fillColor="#ffffff"/>
       <path
           android:pathData="M0,0h360v52h-360z">
         <aapt:attr name="android:fillColor">

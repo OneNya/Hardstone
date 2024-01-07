@@ -57,6 +57,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="411dp"
         android:layout_height="150dp"
         android:layout_alignTop="@+id/imageView3"
@@ -192,7 +193,6 @@
                 tools:srcCompat="@mipmap/seventeen" />
 
 
-
         </LinearLayout>
 
     </ScrollView>
@@ -229,6 +229,15 @@
         android:layout_marginStart="305dp"
         android:layout_marginTop="575dp"
         app:srcCompat="@mipmap/bottle" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:text="COPY DECK CODE"
+        />
 
 
 </RelativeLayout>
