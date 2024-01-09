@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaladinDeck">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="560dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/best_paladin_deck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/class_paladin" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/paladin_card2"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="571dp" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Best Paladin Deck"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Header"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/Header"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/deckprev_paladin"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="57dp" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="206dp"
+                android:layout_height="157dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Aggro Paladin"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Header"
+                app:layout_constraintVertical_bias="0.313"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="206dp"
+                android:layout_height="157dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Winrate:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Header"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="206dp"
+                android:layout_height="116dp"
+                android:fontFamily="@font/montserrat"
+                android:text="71.2%"
+                android:textAlignment="center"
+                android:textColor="#00C22B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Header"
+                app:layout_constraintVertical_bias="0.913"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView27"
+                app:srcCompat="@drawable/paladin_card7"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="200dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Best Build"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView19"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/paladin_card1"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="516dp" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+                app:layout_constraintStart_toStartOf="@+id/imageView21"
+                app:layout_constraintTop_toTopOf="@+id/imageView21"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+                app:layout_constraintStart_toStartOf="@+id/imageView21"
+                app:layout_constraintTop_toTopOf="@+id/imageView22"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+                app:layout_constraintEnd_toEndOf="@+id/imageView21"
+                app:layout_constraintTop_toTopOf="@+id/imageView21"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Righteous Protector"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+                app:layout_constraintStart_toStartOf="@+id/imageView21"
+                app:layout_constraintTop_toTopOf="@+id/imageView21"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Sanguine Soldier"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+                app:layout_constraintStart_toStartOf="@+id/imageView22"
+                app:layout_constraintTop_toBottomOf="@+id/imageView21"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+                app:layout_constraintEnd_toEndOf="@+id/imageView22"
+                app:layout_constraintTop_toBottomOf="@+id/imageView21"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                app:srcCompat="@drawable/paladin_card3"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                app:srcCompat="@drawable/paladin_card4"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/paladin_card5"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="740dp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView26"
+                app:srcCompat="@drawable/paladin_card6"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Sinful Sous Chef"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Blood Matriarch Liadrin"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="For Quel'Thalas!"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+                app:layout_constraintStart_toStartOf="@+id/imageView26"
+                app:layout_constraintTop_toBottomOf="@+id/imageView24"
+                app:layout_constraintVertical_bias="0.384"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Hand of A'dal"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+                app:layout_constraintStart_toStartOf="@+id/imageView27"
+                app:layout_constraintTop_toTopOf="@+id/imageView27"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Kotori Lightblade"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+                app:layout_constraintStart_toStartOf="@+id/imageView28"
+                app:layout_constraintTop_toTopOf="@+id/imageView28"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+                app:layout_constraintEnd_toEndOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView26"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView27"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="@+id/imageView24"
+                app:layout_constraintTop_toTopOf="@+id/imageView27"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+                app:layout_constraintStart_toStartOf="@+id/imageView27"
+                app:layout_constraintTop_toTopOf="@+id/imageView27"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+                app:layout_constraintStart_toStartOf="@+id/imageView26"
+                app:layout_constraintTop_toBottomOf="@+id/imageView24"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+                app:layout_constraintStart_toStartOf="@+id/imageView26"
+                app:layout_constraintTop_toBottomOf="@+id/imageView24"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView28"
+                app:srcCompat="@drawable/paladin_card8"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                app:srcCompat="@drawable/paladin_card9"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                app:srcCompat="@drawable/paladin_card10" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                app:layout_constraintStart_toStartOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="@+id/imageView32"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                app:srcCompat="@drawable/paladin_card11" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                app:srcCompat="@drawable/paladin_card12" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                app:srcCompat="@drawable/paladin_card13" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView35"
+                app:srcCompat="@drawable/paladin_card14" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                app:srcCompat="@drawable/paladin_card15" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                app:srcCompat="@drawable/paladin_card16" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView38"
+                app:srcCompat="@drawable/paladin_card17" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+                app:layout_constraintStart_toStartOf="@+id/imageView28"
+                app:layout_constraintTop_toTopOf="@+id/imageView28"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintStart_toStartOf="@+id/imageView30"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView32"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView34"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView35"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView36"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#D2CA00"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toTopOf="@+id/imageView39"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintStart_toStartOf="@+id/imageView31"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                app:layout_constraintStart_toStartOf="@+id/imageView34"
+                app:layout_constraintTop_toTopOf="@+id/imageView34"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                app:layout_constraintStart_toStartOf="@+id/imageView35"
+                app:layout_constraintTop_toTopOf="@+id/imageView35"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                app:layout_constraintStart_toStartOf="@+id/imageView36"
+                app:layout_constraintTop_toTopOf="@+id/imageView36"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Order in the court"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                app:layout_constraintStart_toStartOf="@+id/imageView30"
+                app:layout_constraintTop_toTopOf="@+id/imageView30"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Boogie Down"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                app:layout_constraintStart_toStartOf="@+id/imageView31"
+                app:layout_constraintTop_toTopOf="@+id/imageView31"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Muster for Battle"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                app:layout_constraintStart_toStartOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="@+id/imageView32"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Seal of Blood"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                app:layout_constraintStart_toStartOf="@+id/imageView33"
+                app:layout_constraintTop_toTopOf="@+id/imageView33"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Buffet Biggun"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                app:layout_constraintStart_toStartOf="@+id/imageView34"
+                app:layout_constraintTop_toTopOf="@+id/imageView34"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Crusader Aura"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                app:layout_constraintStart_toStartOf="@+id/imageView35"
+                app:layout_constraintTop_toTopOf="@+id/imageView35"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Keeper's Strength"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                app:layout_constraintStart_toStartOf="@+id/imageView36"
+                app:layout_constraintTop_toTopOf="@+id/imageView36"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Horn of the Windlord"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                app:layout_constraintStart_toStartOf="@+id/imageView37"
+                app:layout_constraintTop_toTopOf="@+id/imageView37"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="The Countess"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+                app:layout_constraintStart_toStartOf="@+id/imageView38"
+                app:layout_constraintTop_toTopOf="@+id/imageView38"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="The Garden's Grace"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+                app:layout_constraintStart_toStartOf="@+id/imageView39"
+                app:layout_constraintTop_toTopOf="@+id/imageView39"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                app:layout_constraintStart_toStartOf="@+id/imageView37"
+                app:layout_constraintTop_toTopOf="@+id/imageView37"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+                app:layout_constraintStart_toStartOf="@+id/imageView38"
+                app:layout_constraintTop_toTopOf="@+id/imageView38"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/top_shaman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="10"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+                app:layout_constraintStart_toStartOf="@+id/imageView39"
+                app:layout_constraintTop_toTopOf="@+id/imageView39"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
