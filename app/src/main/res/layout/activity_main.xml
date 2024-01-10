@@ -15,9 +15,10 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.115" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,198 +30,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/header" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_shaman"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="384dp"
-        tools:ignore="MissingConstraints" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></RelativeLayout>
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_paladin"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="156dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_hunter"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_demonh"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="270dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_druid"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="327dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_warrior"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="498dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_warlock"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="555dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_deathk"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="612dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_priest"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="669dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_mage"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="441dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/class_rogue"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="726dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/top_hunter_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:fontFamily="@font/montserrat"
-        android:text="#2 Hunter"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
-
-    <TextView
-        android:id="@+id/top_shaman_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:fontFamily="@font/montserrat"
-        android:text="#4 Druid"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/top_shaman_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:fontFamily="@font/montserrat"
-        android:text="#5 Shaman"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/top_hunter_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:fontFamily="@font/montserrat"
-        android:text="#3 Demon Hunter"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/top_paladin_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:fontFamily="@font/roboto_bold"
-        android:text="53.1%"
-        android:textColor="#00C22B"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/top_paladin_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:fontFamily="@font/roboto_bold"
-        android:text="51.2%"
-        android:textColor="#00C22B"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        android:layout_width="417dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="134dp"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:ignore="DuplicateIds" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/class_paladin"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat"
         android:text="#1 Paladin"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
         tools:ignore="DuplicateIds" />
@@ -229,7 +64,7 @@
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_bold"
         android:shadowColor="#776969"
         android:text="57.7%"
@@ -238,146 +73,336 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.368"
+        tools:ignore="DuplicateIds" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="418dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/class_hunter"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/top_hunter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="#2 Hunter"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.666" />
+
+
+    <TextView
+        android:id="@+id/top_paladin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="53.1%"
+        android:textColor="#00C22B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="415dp"
+        android:layout_height="57dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/class_demonh"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp" />
+
+
+    <TextView
+        android:id="@+id/top_hunter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="#3 Demon Hunter"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/top_paladin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="51.2%"
+        android:textColor="#00C22B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="418dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/class_druid"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp" />
+
+    <TextView
+        android:id="@+id/top_shaman_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="#4 Druid"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/top_paladin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="50.9%"
+        android:textColor="#00C22B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="419dp"
+        android:layout_height="59dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/class_shaman"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-9dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="416dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/class_warrior"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="421dp"
+        android:layout_height="57dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/class_warlock"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="417dp"
+        android:layout_height="57dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/class_deathk"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="414dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/class_priest"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/class_mage"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="394dp"
+        android:layout_height="61dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/class_rogue"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/top_shaman_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="#5 Shaman"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/montserrat"
         android:text="#6 Mage"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/montserrat"
         android:text="#7 Warrior"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="@+id/imageView12"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/montserrat"
         android:text="#8 Warlock"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/montserrat"
         android:text="#9 Death Knight"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/montserrat"
         android:text="#10 Priest"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintStart_toStartOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_shaman_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/montserrat"
         android:text="#11 Rogue"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:fontFamily="@font/roboto_bold"
-        android:text="50.9%"
-        android:textColor="#00C22B"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/top_paladin_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/roboto_bold"
         android:text="50.6%"
         android:textColor="#00C22B"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/roboto_bold"
         android:text="48.8%"
         android:textColor="#D2CA00"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/roboto_bold"
         android:text="48.5%"
         android:textColor="#D2CA00"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView12"
         tools:ignore="DuplicateIds" />
 
     <TextView
@@ -385,7 +410,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="32dp"
         android:fontFamily="@font/roboto_bold"
         android:text="47.3%"
         android:textColor="#D2CA00"
@@ -393,48 +418,49 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.384"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
         android:fontFamily="@font/roboto_bold"
         android:text="46.7%"
         android:textColor="#D2CA00"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
         android:fontFamily="@font/roboto_bold"
         android:text="45.8%"
         android:textColor="#D2CA00"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/top_paladin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/roboto_bold"
         android:text="43.7%"
         android:textColor="#C10000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
         tools:ignore="DuplicateIds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
