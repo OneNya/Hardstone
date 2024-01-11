@@ -168,7 +168,7 @@
         tools:layout_editor_absoluteX="-7dp" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -266,7 +266,7 @@
         tools:layout_editor_absoluteX="1dp" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -280,7 +280,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -294,7 +294,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -308,7 +308,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -322,7 +322,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -336,7 +336,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -350,7 +350,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/top_shaman_name"
+        android:id="@+id/textPalaDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
